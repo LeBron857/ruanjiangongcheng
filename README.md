@@ -1,2 +1,0 @@
-# ruanjiangongcheng
-java linux python
