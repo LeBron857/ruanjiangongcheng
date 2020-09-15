@@ -13,3 +13,22 @@ public class Demo001 {
   }
  }
 }
+
+
+
+
+import static org.junit.Assert.*;
+
+import java.util.Arrays;
+
+import org.junit.Test;
+
+public class Example01Test {
+
+ @Test
+ public void test() {
+  int[] arr={1,3,5,7,8};
+  Demo001.mpPx(arr);
+  System.out.println(Arrays.toString(arr));
+ }
+}
